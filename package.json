@@ -1,0 +1,25 @@
+{
+  "name": "kickstart",
+  "version": "1.0.0",
+  "description": "deployement of smart contract that can deploy other instances of a smart contract.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "smart-contract",
+    "web3",
+    "solidity",
+    "nodejs",
+    "truffle"
+  ],
+  "author": "Muhammad Arsalan",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^10.1.0",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^10.1.0",
+    "solc": "^0.8.17",
+    "web3": "^1.8.0"
+  }
+}
