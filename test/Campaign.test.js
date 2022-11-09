@@ -12,7 +12,7 @@ let campaignAddress;
 let campaign;
 
 beforeEach(async () => {
-  accounts = web3.eth.getAccounts();
+  accounts = await web3.eth.getAccounts();
 
   factory = await new web3.eth.Contract(compiledFactory.abi)
     .deploy({
